@@ -11,9 +11,22 @@ def animals():
     window = Tk()
     window.withdraw()
 
-    # TODO 1. Ask the user which animal they want, then see and
+    # TODO 1. Ask the user which animal they wantex, then see and
     #  hear the animal they chose using one of the methods below.
-
+    for i in range(5):
+        aws = simpledialog.askstring(None, "Do you want,moo,quack,woof,meow,llama_scream. If you want to end the program type exit")
+        if aws == "moo":
+            moo()
+        elif aws == "quack":
+            quack()
+        elif aws == "woof":
+            woof()
+        elif aws == "meow":
+            meow()
+        elif aws == "llama_scream":
+            llama_scream()
+        elif aws == "exit":
+            keep_going = False
     # TODO 2. Make it so that the user can keep entering new animals.
 
     # TODO 3. If the user enters 'exit', stop the program

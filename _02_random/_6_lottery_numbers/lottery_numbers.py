@@ -8,6 +8,8 @@ if __name__ == '__main__':
 
     # TODO 1) Get 6 random numbers to put on your lottery ticket
 
-    # TODO 2) Display the selected numbers to the user in a pop-up
+    randnum = random.randint(0, 6)
 
+    # TODO 2) Display the selected numbers to the user in a pop-up
+    messagebox.showinfo("lottery ticket", str(randnum))
     # TODO 3) BONUS: Set the title of the pop-up to show it is a lottery ticket
