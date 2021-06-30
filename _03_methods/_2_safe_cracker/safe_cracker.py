@@ -34,3 +34,6 @@ if __name__ == '__main__':
     window = Tk()
     window.withdraw()
     crack_the_safe()
+    for x in range(1000):
+        try_code(x)
+

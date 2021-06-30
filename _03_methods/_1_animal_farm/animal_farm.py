@@ -26,7 +26,7 @@ def animals():
         elif aws == "llama_scream":
             llama_scream()
         elif aws == "exit":
-            keep_going = False
+            break
     # TODO 2. Make it so that the user can keep entering new animals.
 
     # TODO 3. If the user enters 'exit', stop the program
